@@ -38,7 +38,7 @@ function profileReducer(state = initialState, action) {
           ...state,
           error: payload,
           loading: false,
-          profile: null
+          profile: null       // add
         };
       case CLEAR_PROFILE:
         return {
